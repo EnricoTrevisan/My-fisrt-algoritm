@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Primeiro algoritimo"/>
+        <attribute name="authors" value="T1DEV-T2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-13 02:04:52 "/>
+        <attribute name="created" value="VDFERVYtVDI7REVTS1RPUC0zQk5WSTM0OzIwMjUtMDItMTM7IjAxOjA5OjQ1ICI7Mjc2NA=="/>
+        <attribute name="edited" value="VDFERVYtVDI7REVTS1RPUC0zQk5WSTM0OzIwMjUtMDItMTM7IjAyOjA0OjUyICI7MTsyODY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome para acesso para a conta&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Ol&#225; &quot; &amp;nome&amp; &quot;. Seja bem-vindo ao site&quot;" newline="True"/>
+            <output expression="&quot;Digite sua data de nascimento.&quot;" newline="True"/>
+            <declare name="data" type="String" array="False" size=""/>
+            <input variable="data"/>
+            <output expression="&quot;A data est&#225; correta: &quot; &amp;data&amp; &quot;?&quot;" newline="True"/>
+            <declare name="n&#227;o" type="String" array="False" size=""/>
+            <input variable="n&#227;o"/>
+            <output expression="&quot;Se ela n&#227;o est&#225; correta. Coloque a data correta.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
